@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="01 signup" parallel="none">
+
+
+
+
+
+    <test name="Desktop.Chrome">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="viewport" value="Desktop"/>
+
+        <classes>
+            <class name="test.java.SignUpandSignIn"></class>
+        </classes>
+    </test>
+</suite>
